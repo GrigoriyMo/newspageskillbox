@@ -421,6 +421,7 @@ a.category-link:visited {
 .special-news {
     position: relative;
     margin-bottom: 60px;
+    display: flex;
 }
 
 .left-special,
@@ -1071,9 +1072,6 @@ a.category-link:visited {
         justify-content: space-evenly;
         align-items: unset;
     }
-}
-
-@media (max-width: 520px) {
     .column-right aside {
         flex-direction: column;
     }
