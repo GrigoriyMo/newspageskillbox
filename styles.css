@@ -69,13 +69,13 @@ body {
     margin-right: 60px;
     width: 121px;
     height: 40px;
-    background-image: url('img/logo.png');
+    
 }
 
 .arrow {
     padding-left: 30px;
-    background: url('img/arrow.png') no-repeat 20% 50%;
-    background-size: cover;
+    background: url('img/down-arrow.png') no-repeat 20% 50%;
+    background-size: auto;
 }
 
 .city {
@@ -85,7 +85,7 @@ body {
 .weather {
     display: inline-block;
     vertical-align: middle;
-    background-image: url('img/weather.png');
+    background-image: url('img/cloudy.png');
     background-repeat: no-repeat;
     background-position-y: 50%;
     margin-right: 46px;
@@ -248,8 +248,9 @@ body {
     display: inline-block;
     vertical-align: middle;
     padding-left: 15px;
-    background-image: url('img/icon-time.png');
+    background-image: url('img/clock.png');
     background-repeat: no-repeat;
+    background-position: left;
     margin-right: 20px;
 }
 
@@ -257,8 +258,9 @@ body {
     display: inline-block;
     vertical-align: middle;
     padding-left: 15px;
-    background-image: url('img/icon-comments.png');
+    background-image: url('img/chat.png');
     background-repeat: no-repeat;
+    background-position: left;
 }
 
 .all-news {
@@ -357,6 +359,7 @@ body {
     margin-top: 19px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .item {
@@ -399,8 +402,9 @@ body {
     padding-left: 16px;
     margin-left: 12px;
     margin-right: 20px;
-    background-image: url('img/icon-time.png');
+    background-image: url('img/clock.png');
     background-repeat: no-repeat;
+    background-position: left;
 }
 
 .central-container {
@@ -643,7 +647,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        align-items: center;
+        /* align-items: center; */
     }
     .phone {
         margin-bottom: 0;
@@ -718,13 +722,12 @@ body {
         padding: 0 210px;
         width: 175px;
         height: 24px;
-        background-image: url('img/logo-mobile.png');
+/*         background-image: url('img/logo-mobile.png');
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center; */
     }
     .weather {
         font-size: 16px;
-        background-image: url('img/weather.png');
         padding-left: 35px;
         margin: 0;
     }
