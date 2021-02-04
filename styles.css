@@ -8,15 +8,16 @@ body {
 }
 
 .header-one-style {
-    font-size: 16px;
+    font-size: 15.5px;
     margin:0;
+    font-weight: normal;
 }
 
 .black-bar {
     background-color: #00122f;
     color: white;
-    padding: 20px 0;
-    font-size: 16px;
+    padding: 18.5px 0;
+    font-size: 15.2px;
 }
 
 .black-bar-fresh-news-link {
@@ -25,7 +26,6 @@ body {
 
 .fixed-container {
     max-width: 1000px;
-    padding: 0 20px;
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -73,13 +73,14 @@ body {
 }
 
 .arrow {
-    padding-left: 30px;
+    padding-left: 52px;
     background: url('img/down-arrow.png') no-repeat 20% 50%;
     background-size: auto;
 }
 
 .city {
     border-bottom: 1px dashed #448ccb;
+    font-size: 15px;
 }
 
 .weather {
@@ -114,24 +115,24 @@ body {
 }
 
 .search-input {
-    width: 200px;
-    height: 30px;
+    width: 293px;
+    height: 34px;
     border: 0;
     background-color: #f3f3f3;
     border-radius: 30px;
     padding: 5px;
-    font-size: 14px;
-    padding-left: 22px;
+    font-size: 12.5px;
+    padding-left: 21px;
 }
 
 .search {
     width: 30px;
-    height: 30px;
+    height: 33px;
     border: 0;
     background: url('img/search.png') no-repeat 50% 50%;
-    background-size: 50%;
+    background-size: 55%;
     position: absolute;
-    right: 5px;
+    right: 10px;
     top: 5px;
     cursor: pointer;
 }
@@ -632,7 +633,7 @@ body {
 
 @media (min-width: 960px) {
     .menu-container-link {
-        font-size: 14px;
+        font-size: 16px;
     }
     .menu-container-menu-element {
         display: inline;
